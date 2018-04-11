@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HelpYou.DaysPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <ListView x:Name="DaysList" HasUnevenRows="True" SeparatorVisibility="None" ItemTapped="DeSelectListView">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <ContentView Padding="10,5,10,5">
+                                    <StackLayout Orientation="Horizontal">
+                                        <Switch IsToggled="{Binding IsSelected}" />
+                                        <Label Text="{Binding Name}" />
+                                    </StackLayout>
+                                </ContentView>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <Button x:Name="SelectDaysButton" Clicked="SelectDays" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HelpYou.EditCoursePage">
+    <ScrollView>
+        <StackLayout>
+            <Entry x:Name="CourseId" Placeholder="Id" />
+            <Entry x:Name="CourseName" Placeholder="Name" />
+            <Entry x:Name="CourseBuilding" Placeholder="Building" />
+            <Entry x:Name="CourseRoom" Placeholder="Room" />
+            <Button x:Name="CourseDays" Clicked="SelectDays" />
+            <TimePicker x:Name="CourseStartTime" />
+            <TimePicker x:Name="CourseEndTime" />
+            <Button x:Name="ProcessCourseButton" Clicked="ProcessCourse" />
+            <Button x:Name="DeleteCourseButton" Clicked="DeleteCourse" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

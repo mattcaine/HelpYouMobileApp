@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage Padding="10" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:HelpYou" x:Class="HelpYou.FairfieldSW416Group2Page">
+    <ScrollView>
+        <StackLayout>
+            <Label ClassId="WelcomeLabel" x:Name="WelcomeLabel" VerticalOptions="Start" HorizontalOptions="Center" />
+            <Button ClassId="CourseButton" x:Name="CourseButton" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,50,0,0" WidthRequest="200" Clicked="OnButtonClick" />
+            <Button ClassId="LocationButton" x:Name="LocationButton" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="200" Clicked="OnButtonClick" />
+            <Button ClassId="PostButton" x:Name="PostButton" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="200" Clicked="OnButtonClick" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
