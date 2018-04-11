@@ -27,7 +27,7 @@
 
   <ItemGroup>
     <EmbeddedResource Update="ApplicationResources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>ApplicationResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="Pages\CoursePage.xaml">

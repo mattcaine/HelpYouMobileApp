@@ -22,7 +22,7 @@ namespace HelpYou {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class ApplicationResources {
+    public class ApplicationResources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace HelpYou {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("HelpYou.ApplicationResources", typeof(ApplicationResources).Assembly);
@@ -51,7 +51,7 @@ namespace HelpYou {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace HelpYou {
         /// <summary>
         ///   Looks up a localized string similar to Add Course.
         /// </summary>
-        internal static string AddCourseButtonText {
+        public static string AddCourseButtonText {
             get {
                 return ResourceManager.GetString("AddCourseButtonText", resourceCulture);
             }
@@ -72,7 +72,7 @@ namespace HelpYou {
         /// <summary>
         ///   Looks up a localized string similar to Add New Course.
         /// </summary>
-        internal static string AddNewCourseButtonText {
+        public static string AddNewCourseButtonText {
             get {
                 return ResourceManager.GetString("AddNewCourseButtonText", resourceCulture);
             }
@@ -81,7 +81,7 @@ namespace HelpYou {
         /// <summary>
         ///   Looks up a localized string similar to Courses.
         /// </summary>
-        internal static string CourseButtonText {
+        public static string CourseButtonText {
             get {
                 return ResourceManager.GetString("CourseButtonText", resourceCulture);
             }
@@ -90,7 +90,7 @@ namespace HelpYou {
         /// <summary>
         ///   Looks up a localized string similar to Do you want to delete this course?.
         /// </summary>
-        internal static string DeleteConfirmationMessage {
+        public static string DeleteConfirmationMessage {
             get {
                 return ResourceManager.GetString("DeleteConfirmationMessage", resourceCulture);
             }
@@ -99,7 +99,7 @@ namespace HelpYou {
         /// <summary>
         ///   Looks up a localized string similar to Delete.
         /// </summary>
-        internal static string DeleteCourseButtonText {
+        public static string DeleteCourseButtonText {
             get {
                 return ResourceManager.GetString("DeleteCourseButtonText", resourceCulture);
             }
@@ -108,7 +108,7 @@ namespace HelpYou {
         /// <summary>
         ///   Looks up a localized string similar to Delete Confirmation.
         /// </summary>
-        internal static string DeleteCourseButtonTitle {
+        public static string DeleteCourseButtonTitle {
             get {
                 return ResourceManager.GetString("DeleteCourseButtonTitle", resourceCulture);
             }
@@ -117,7 +117,7 @@ namespace HelpYou {
         /// <summary>
         ///   Looks up a localized string similar to Save Course.
         /// </summary>
-        internal static string EditCourseButtonText {
+        public static string EditCourseButtonText {
             get {
                 return ResourceManager.GetString("EditCourseButtonText", resourceCulture);
             }
@@ -126,7 +126,7 @@ namespace HelpYou {
         /// <summary>
         ///   Looks up a localized string similar to End time cannot be empty..
         /// </summary>
-        internal static string ErrorEmptyEndTimeMessage {
+        public static string ErrorEmptyEndTimeMessage {
             get {
                 return ResourceManager.GetString("ErrorEmptyEndTimeMessage", resourceCulture);
             }
@@ -135,7 +135,7 @@ namespace HelpYou {
         /// <summary>
         ///   Looks up a localized string similar to Id cannot be empty..
         /// </summary>
-        internal static string ErrorEmptyIdMessage {
+        public static string ErrorEmptyIdMessage {
             get {
                 return ResourceManager.GetString("ErrorEmptyIdMessage", resourceCulture);
             }
@@ -144,7 +144,7 @@ namespace HelpYou {
         /// <summary>
         ///   Looks up a localized string similar to Name cannot be empty..
         /// </summary>
-        internal static string ErrorEmptyNameMessage {
+        public static string ErrorEmptyNameMessage {
             get {
                 return ResourceManager.GetString("ErrorEmptyNameMessage", resourceCulture);
             }
@@ -153,7 +153,7 @@ namespace HelpYou {
         /// <summary>
         ///   Looks up a localized string similar to Start time cannot be empty..
         /// </summary>
-        internal static string ErrorEmptyStartTimeMessage {
+        public static string ErrorEmptyStartTimeMessage {
             get {
                 return ResourceManager.GetString("ErrorEmptyStartTimeMessage", resourceCulture);
             }
@@ -162,7 +162,7 @@ namespace HelpYou {
         /// <summary>
         ///   Looks up a localized string similar to Please select at least one day..
         /// </summary>
-        internal static string ErrorSelectDayMessage {
+        public static string ErrorSelectDayMessage {
             get {
                 return ResourceManager.GetString("ErrorSelectDayMessage", resourceCulture);
             }
@@ -171,7 +171,7 @@ namespace HelpYou {
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string ErrorTitle {
+        public static string ErrorTitle {
             get {
                 return ResourceManager.GetString("ErrorTitle", resourceCulture);
             }
@@ -180,7 +180,7 @@ namespace HelpYou {
         /// <summary>
         ///   Looks up a localized string similar to Home.
         /// </summary>
-        internal static string HomeButtonText {
+        public static string HomeButtonText {
             get {
                 return ResourceManager.GetString("HomeButtonText", resourceCulture);
             }
@@ -189,7 +189,7 @@ namespace HelpYou {
         /// <summary>
         ///   Looks up a localized string similar to Location.
         /// </summary>
-        internal static string LocationButtonText {
+        public static string LocationButtonText {
             get {
                 return ResourceManager.GetString("LocationButtonText", resourceCulture);
             }
@@ -198,7 +198,7 @@ namespace HelpYou {
         /// <summary>
         ///   Looks up a localized string similar to No.
         /// </summary>
-        internal static string NoText {
+        public static string NoText {
             get {
                 return ResourceManager.GetString("NoText", resourceCulture);
             }
@@ -207,7 +207,7 @@ namespace HelpYou {
         /// <summary>
         ///   Looks up a localized string similar to OK.
         /// </summary>
-        internal static string OkText {
+        public static string OkText {
             get {
                 return ResourceManager.GetString("OkText", resourceCulture);
             }
@@ -216,7 +216,7 @@ namespace HelpYou {
         /// <summary>
         ///   Looks up a localized string similar to Post.
         /// </summary>
-        internal static string PostButtonText {
+        public static string PostButtonText {
             get {
                 return ResourceManager.GetString("PostButtonText", resourceCulture);
             }
@@ -225,7 +225,7 @@ namespace HelpYou {
         /// <summary>
         ///   Looks up a localized string similar to Select.
         /// </summary>
-        internal static string SelectButtonText {
+        public static string SelectButtonText {
             get {
                 return ResourceManager.GetString("SelectButtonText", resourceCulture);
             }
@@ -234,7 +234,7 @@ namespace HelpYou {
         /// <summary>
         ///   Looks up a localized string similar to Select Days.
         /// </summary>
-        internal static string SelectDaysButtonText {
+        public static string SelectDaysButtonText {
             get {
                 return ResourceManager.GetString("SelectDaysButtonText", resourceCulture);
             }
@@ -243,7 +243,7 @@ namespace HelpYou {
         /// <summary>
         ///   Looks up a localized string similar to View/Edit.
         /// </summary>
-        internal static string ViewEditText {
+        public static string ViewEditText {
             get {
                 return ResourceManager.GetString("ViewEditText", resourceCulture);
             }
@@ -252,7 +252,7 @@ namespace HelpYou {
         /// <summary>
         ///   Looks up a localized string similar to Welcome to HelpYou.
         /// </summary>
-        internal static string WelcomeLabelText {
+        public static string WelcomeLabelText {
             get {
                 return ResourceManager.GetString("WelcomeLabelText", resourceCulture);
             }
@@ -261,7 +261,7 @@ namespace HelpYou {
         /// <summary>
         ///   Looks up a localized string similar to Yes.
         /// </summary>
-        internal static string YesText {
+        public static string YesText {
             get {
                 return ResourceManager.GetString("YesText", resourceCulture);
             }

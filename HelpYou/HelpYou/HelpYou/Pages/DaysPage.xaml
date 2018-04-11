@@ -9,15 +9,15 @@
                             <ViewCell>
                                 <ContentView Padding="10,5,10,5">
                                     <StackLayout Orientation="Horizontal">
-                                        <Switch IsToggled="{Binding IsSelected}" />
-                                        <Label Text="{Binding Name}" />
+                                        <Switch IsToggled="{Biding IsSelected}"/>
+                                        <Label Text="{Binding Name}"/>
                                     </StackLayout>
                                 </ContentView>
                             </ViewCell>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
-                <Button x:Name="SelectDaysButton" Clicked="SelectDays" />
+                <Button x:Name="SelectDaysButton" Clicked="SelectDays"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
