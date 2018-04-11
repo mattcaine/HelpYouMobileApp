@@ -1,20 +1,46 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
+using System.Diagnostics;
+using System;
 
 namespace HelpYou.Pages
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class FairfieldSW416Group2Page : ContentPage
-	{
-		public FairfieldSW416Group2Page ()
-		{
-			InitializeComponent ();
-		}
-	}
+    public partial class FairfieldSW416Group2Page : ContentPage
+    {
+        public FairfieldSW416Group2Page()
+        {
+            InitializeComponent();
+            SetUIText();
+        }
+
+        private void SetUIText()
+        {
+            Title = ApplicationResources.HomeButtonText;
+            WelcomeLabel.Text = ApplicationResources.WelcomeLabelText;
+            CourseButton.Text = ApplicationResources.CourseButtonText;
+            LocationButton.Text = ApplicationResources.LocationButtonText;
+            PostButton.Text = ApplicationResources.PostButtonText;
+        }
+
+        //Determines what button was clicked and opens a new page
+        async private void OnButtonClick(object sender, EventArgs args)
+        {
+            Button ClickedButton = (Button)sender;
+            if (ClickedButton.ClassId.Equals("CourseButton"))
+            {
+                await Navigation.PushAsync(new CoursePage());
+            }
+            else if (ClickedButton.ClassId.Equals("LocationButton"))
+            {
+                await Navigation.PushAsync(new LocationPage());
+            }
+            else if (ClickedButton.ClassId.Equals("PostButton"))
+            {
+                await Navigation.PushAsync(new PostPage());
+            }
+            else
+            {
+                Debug.WriteLine("Button with Id '" + ClickedButton.ClassId + "' was not expected.");
+            }
+        }
+    }
 }
